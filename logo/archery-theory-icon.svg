@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="44 25 111 107" role="img" aria-label="Archery Theory" color="#183930" fill="currentColor">
+  <defs>
+    <path id="page-top" d="M51.5 95.5 C67.5 97.6 87.5 106.4 99.5 120.5 L99.5 124.5 L91.5 117.5 C79.5 107 65.5 103.5 51.5 101.5 Z"/>
+    <path id="page-bottom" d="M48.5 104.5 C64.5 107.5 84.5 112.5 99.5 120.5 L99.5 126.5 C85.5 118.6 65.5 113.7 48.5 110.5 Z"/>
+    <mask id="ring-cut" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="160">
+      <rect width="200" height="160" fill="#fff"/>
+      <rect x="96" y="0" width="7" height="82.4" fill="#000"/>
+      <g fill="#000" stroke="#000" stroke-width="5.2" stroke-linejoin="round">
+        <use href="#page-top"/>
+        <use href="#page-top" transform="translate(199 0) scale(-1 1)"/>
+      </g>
+    </mask>
+  </defs>
+  <g mask="url(#ring-cut)" fill="none" stroke="currentColor">
+    <circle cx="99.5" cy="82.4" r="28.53" stroke-width="6.95"/>
+    <circle cx="99.5" cy="82.4" r="14.53" stroke-width="7.05"/>
+  </g>
+  <circle cx="99.5" cy="82.4" r="4.05"/>
+  <rect x="98" y="46" width="3" height="37"/>
+  <rect x="98" y="99" width="3" height="9"/>
+  <path fill-rule="evenodd" d="M92.6 29.6 L99.5 34.6 L106.4 29.6 V41.3 L101 46.7 V48 H98 V46.7 L92.6 41.3 Z M95.5 35.3 L97.9 37 V42.5 L95.5 40.1 Z M103.5 35.3 L101.1 37 V42.5 L103.5 40.1 Z"/>
+  <use href="#page-top"/>
+  <use href="#page-bottom"/>
+  <use href="#page-top" transform="translate(199 0) scale(-1 1)"/>
+  <use href="#page-bottom" transform="translate(199 0) scale(-1 1)"/>
+  <path d="M99.5 120.6 L100.3 121 V126 L99.5 126.5 L98.7 126 V121 Z"/>
+</svg>
