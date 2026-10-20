@@ -1,0 +1,29 @@
+{
+  "name": "archery-theory",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "astro": "astro",
+    "deploy": "npm run build && gh-pages --dist dist --branch Live --no-history --message \"Deploy site\""
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^8.1.0",
+    "@astrojs/react": "^7.1.0",
+    "astro": "^7.4.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.11",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "gh-pages": "^6.3.0",
+    "typescript": "^6.0.3"
+  }
+}
